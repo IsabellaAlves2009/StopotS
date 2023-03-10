@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 27</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 13 0 13 9 0 9"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-9" transform="translate(-582.000000, -3281.000000)">
+            <g id="Group-28" transform="translate(535.000000, 3282.000000)">
+                <g id="Group-27" transform="translate(65.500000, 17.500000) rotate(-180.000000) translate(-65.500000, -17.500000) translate(48.000000, 0.000000)">
+                    <g id="Group-3" transform="translate(11.000000, 14.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M6.10448366,9 C6.09091854,9 6.07746646,8.999775 6.06390134,8.999325 C5.71821678,8.98695007 5.39728857,8.81786348 5.19279433,8.54032748 L0.218915792,1.79036397 C-0.150281647,1.28929168 -0.0414215328,0.585270483 0.461957584,0.217847469 C0.965223659,-0.149463045 1.67264484,-0.0413511295 2.04206836,0.459721162 L6.1697093,6.06140338 L11.0082757,0.396384004 C11.4124034,-0.0770134367 12.1260419,-0.134500626 12.6017256,0.267797199 C13.0774092,0.670320024 13.135174,1.38030369 12.7308203,1.85370113 L6.96564291,8.60366464 C6.75052266,8.85555078 6.43535963,9 6.10448366,9" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="17.5" cy="17.5" r="17.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

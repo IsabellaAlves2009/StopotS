@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    weight: 100%;
+    height: 100%;
+}
+body{
+    background: #453ab7;
+}
+header{
+    height: 100%;
+    min-height: 840px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+header.pt{
+    background-image: url('Img/header_pt.png');
+}
+
+header .menuMobile, header .imgMobile, header .langMobile{
+    display: none;
+}
+
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+label{
+    cursor: default;
+}
+
+header .content{
+    flex: 1;
+    position: relative;
+    z-index: 2;
+}
+
+header .top{
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 42px 0;
+}   
+
+header .top .stopots{
+    width: 192px;
+    height: 95px;
+    background-image: url('Img/stopots.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header .top span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header .top span nav{
+    margin: 0 25px 0 0;
+}
+
+
+header .top span nav a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1.22px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header .top span .language{
+    width: 75px;
+    text-align: right;
+    font-family: 'ubuntubold';
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    font-size: 16px;
+    margin: 0 0 0 25px;
+
+}
+
+header .top span .language input{
+    display: none;
+}
+
+header .top span .language .submenu{
+    position: absolute;
+    top: 40x;
+    right: -2px;
+    width: 140px;
+    background-color: rgba(4,2,98,0.49);
+}
+
+header .top span .language:before{
+    font-size: 20px;
+    color: #fff;
+    content: '\e920';
+    font-family: 'ico';
+}
+
+header .top sapn .language .submenu a{
+    align-self: stretch;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+header .middle .acess h2{
+    color: #88f0c0;
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 400;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 1.4px;
+    margin: 0;
+    padding: 0;
+}
+
+header .middle .acess p{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0.98;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin: 20px 0 0;
+    font-weight: 400;
+}
+
+ header .middle .acess div.playImg{
+    background-image: url('Img/play.svg');
+    opacity: 0.7;
+    background-repeat: no-repeat;
+
+}
+
+header .middle .acess .login .enter{
+    width: 267px;
+    height: 60px;
+    background-image: url('Img/buttonBig.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Fredoka One', cursive;
+    font-size: 19px;
+    color: #261f69;
+    letter-spacing: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .middle .acess .login .enter strong{
+    flex: 1;
+    font-weight: 100;
+    margin: 0 8px 0 0;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+header .middle .acess .login .enter:hover{
+    background-image: url('Img/buttonBig-hover.svg');
+}
+
+
+header .middle .acess .login .enter:before{
+    font-family: 'ico';
+    font-size: 20px;
+    width: 36px;
+    height: 33px;
+    margin: 0 0 0 12px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .pageDown span{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 27px;
+    animation: pageDown .9s linear infinite;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+header .pageDown span:before{
+    background-image: url('Img/down.svg');
+    background-repeat: no-repeat;
+    content: '';
+    width: 24px;
+    height: 32px;
+}
+
+header .middle{
+    align-self: stretch;
+    margin: 70px 0 0;
+}
+
+header .middle .acess .legend{
+    font-size: 17px;
+    letter-spacing: 1.48px;
+    margin: 20px 0 10px;
+    align-self: stretch;
+    text-align: center;
+}
+
+header .middle .acess .legend p{
+    color: #fff;
+    opacity: 0.98;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 24px;
+}
+
+header .middle .acess .login{
+   margin: 50px 0;
+}
+
+header .middle .acess .login span{
+    width: 267px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .middle .acess .login span a{
+    background-image: url('Img/buttonSmall.svg');
+    width: 64px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 0;
+
+}
+
+header .middle .acess .login span a:hover{
+    background-image: url('Img/buttonSmall-hover.svg');
+}
+
+/*icons rede social*/
+
+header .middle .access 
+.login span .icon-facebook:before, 
+header .middle .access .login span 
+.icon-twitter:before, header .middle 
+.access .login span .icon-google:before{
+    font-family: 'ico';
+    color: #fff;
+    font-size: 20px;
+}
+/*--------------------*/
+
+
+#howItWorks .content{
+    text-align: center;
+    justify-content: center;
+}
+
+#howItWorks .middle{
+    width: 1080px;
+    margin: 65px 0 0;
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-around;
+    text-align: center;
+}
+
+div#howItWorks .content h3{
+    color: #88f0c0;
+    text-shadow: -1px 2px 0 #389067;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.4px;
+    font-size: 34px;
+    text-align: center;
+}
+div#howItWorks .content h6{
+    color: #fff;
+    font-weight: 400;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0.78px;
+}
+
+#howItWorks .middle .box{
+    background: #6d62e7;
+    box-shadow: 0 7px 5px 0 rgb(0 0 0 / 35%);
+    border-radius: 8px;
+    width: 315px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#howItWorks .middle .box h4{
+    color: #f5d123;
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 19px;
+    letter-spacing: 0.78px;
+    line-height: 22px;
+    text-align: center;
+    height: 44px;
+    align-items: center;
+
+}
+#howItWorks .middle .box p{
+    color: #fff;
+    margin: 15px 25px 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: .66px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#howItWorks .middle .box figure{
+    width: 192px;
+    height: 206px;
+    margin: 30px 0 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*box 1,2,3*/
+#howItWorks .middle .box:nth-of-type(1) figure{
+    background-image: url('./Img/friteNeuronios.png');
+}
+
+#howItWorks .middle .box:nth-of-type(2) figure{
+    background-image: url('./Img/corraContraTempo.png');
+}
+
+#howItWorks .middle .box:nth-of-type(3) figure{
+    background-image: url('./Img/valideRespostas.png');
+}
+
+.lottie div{
+    width: 550px;
+    height: 610px; 
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    display: block;
+    transform-origin: 0px 0px;
+    backface-visibility: visible;
+    transform-style: flat;
+    overflow: hidden;
+    transform: matrix3d('0.52, 0, 0, 0, 0, 0.52, 0, 0, 0, 0, 1, 0, 0, 11.4, 0, 1'); 
+}
+
+#flexibility .content{
+    margin: 65px 0;
+    text-align: center;
+}
+
+#flexibility .content h3{
+    color: #88f0c0;
+    text-shadow: -1px 2px 0 #389067;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.4px;
+    font-size: 34px;
+    text-align: center;
+}
+
+#flexibility .content h6 {
+    color: #fff;
+    font-weight: 400;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0.78px;
+}
+
+#flexibility .content .middle div .video iframe{
+   border: 8px solid #cbc0ff;
+   height: 330px;
+   width: 576px;
+   box-shadow: 0 55px 37px 0 rgba(0 0 0 / 50%);
+   border-radius: 8px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+/*page down*/
+
+@keyframes pageDown{
+    from{
+        opacity: 0.4;
+
+    }
+    to{
+        opacity: 1;
+    }
+}
